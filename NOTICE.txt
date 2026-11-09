@@ -1,0 +1,37 @@
+DuckSpace.org Portal & 3D Apartment Lab
+Copyright 2026 DuckSpace.org Contributors
+
+This product includes software, 3D robot models, and trained RL policies
+originally developed by Pollen Robotics / Hugging Face as part of the
+Microduck Simulator, Microduck, and Microduck RL projects:
+  - https://huggingface.co/spaces/pollen-robotics/microduck-simulator
+  - https://github.com/pollen-robotics/microduck
+  - https://github.com/pollen-robotics/microduck_rl
+
+This product also distributes open-source community .onnx locomotion policies
+and preview videos released under the Apache License, Version 2.0:
+  - joanfox/microduck-happy-hop (https://huggingface.co/joanfox/microduck-happy-hop) - Apache-2.0
+  - Nupr-Haokun/microduck-step-up-head-brake (https://huggingface.co/Nupr-Haokun/microduck-step-up-head-brake) - Apache-2.0
+  - RemiFabre/microduck-rough-walk-g (https://huggingface.co/RemiFabre/microduck-rough-walk-g) - Apache-2.0
+  - RemiFabre/microduck-flamingo-cycle (https://huggingface.co/RemiFabre/microduck-flamingo-cycle) - Apache-2.0
+  - zhoumiaosen/microduck-running (https://huggingface.co/zhoumiaosen/microduck-running) - Apache-2.0
+  - HannesVonEssen/microduck-running (https://huggingface.co/HannesVonEssen/microduck-running) - Apache-2.0
+  - HannesVonEssen/microduck-long-jump (https://huggingface.co/HannesVonEssen/microduck-long-jump) - Apache-2.0
+  - langli11/microduck-tricks (https://huggingface.co/langli11/microduck-tricks) - Apache-2.0
+  - witcheer/microduck-walk-rough (https://huggingface.co/witcheer/microduck-walk-rough) - Apache-2.0
+
+Licensed under the Apache License, Version 2.0 (the "License").
+You may obtain a copy of the License at:
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Summary of modifications by DuckSpace.org:
+  - Added 3D Apartment environment (plush carpet, slippers, charging dock,
+    autonomous robot vacuum, articulated ginger cat) in app/src/game/apartment.js.
+  - Added Bilibili-style Video Showcase Start Screen (app/src/ui/TitleMenu.jsx)
+    and DuckSpace.org Skill Store, Multi-Hardware Garage (XL330, Feetech HD-1910,
+    HL-2915, UNO Q, STS3215), 1C-style Floor 2 Configurator, 30s Apartment
+    Crash-Test Benchmark, and in-browser 3D WebM Video Studio.
+  - Removed external Google Font links for Mainland China network compatibility.
+
+DuckSpace.org is an independent community & commercial platform and is not
+endorsed by or officially affiliated with Pollen Robotics.
